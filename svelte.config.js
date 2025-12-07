@@ -8,39 +8,40 @@ const config = {
 	kit: {
 		adapter: adapter({
 			fallback: 'index.html',
-			strict: false
+			strict: false,
+			runtime: 'nodejs22.x'
 		}),
-		
+
 		prerender: {
 			handleHttpError: ({ path, referrer, message }) => {
 				console.warn(`Prerender error: ${path} - ${message}`);
-				
+
 				// Skip all 404 errors during prerendering
 				if (message.includes('404') || message.includes('Not found')) {
 					return;
 				}
-				
+
 				// Skip contact page specifically
 				if (path === '/contact') {
 					return;
 				}
-				
+
 				// Skip dynamic quiz routes
 				if (path.startsWith('/quizzes/') && path !== '/quizzes') {
 					return;
 				}
-				
+
 				// Log other errors but don't fail the build
 				console.error(`Prerender error on ${path}: ${message}`);
 			},
-			
+
 			// Only prerender safe routes
 			entries: [
 				'/',
 				'/quizzes',
 				'/contact'
 			],
-			
+
 			// Crawl from these entry points only
 			crawl: true
 		}
