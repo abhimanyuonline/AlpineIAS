@@ -1,0 +1,30 @@
+[
+  {
+    "year": 2026,
+    "title": "Astra Test Series",
+    "type": "Classroom",
+    "features": [
+      "26 Complete Tests Full GS Papers I-IV + Essay coverage from July to February",
+      "Personal Mentor Evaluation Expert feedback on every answer with monthly 1-on-1 sessions",
+      "Progressive Structure Sectional → Full-length → Final simulation tests",
+      " Complete Support Telegram group + peer reviews + performance tracking"
+    ],
+    "gradient": "from-green-600 to-green-800",
+    "icon": "",
+    "link": "Astra-test-series"
+  },
+  {
+    "year": 2026,
+    "title": "Strike Hard Prelims Test Series",
+    "type": "LIVE Online",
+    "features": [
+      "26 UPSC-Level Tests Complete GS I-IV + Essay from July to February",
+      "Expert Mentor Evaluation Personal feedback + monthly strategy sessions",
+      "Structured Progression Sectional → Full-length → Final simulations",
+      "Complete Support Model answers + Telegram group + performance tracking"
+    ],
+    "gradient": "from-green-600 to-green-800",
+    "icon": "",
+    "link": "Strike-hard"
+  }
+]

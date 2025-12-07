@@ -1,0 +1,86 @@
+[
+  {
+    "year": 2026,
+    "title": "UPSC TORTOISE 2-Year Foundation",
+    "type": "Online/Offline/Hybrid",
+    "features": [
+      "Early Start for Beginners – Ideal for college students or 12th pass aspirants.",
+      "Step-by-Step Prep – From NCERT basics to full GS + Prelims + Mains + CSAT coverage.",
+      "Daily Live Classes + Tests – 2-hour sessions, weekly tests, answer writing & current affairs.",
+      "Full Mentorship & Support – Personal guidance, study tracking, and hybrid learning options."
+    ],
+    "gradient": "from-green-600 to-green-800",
+    "icon": "/logos/book1.jpg",
+    "link": "2-year-foundation-batch"
+  },
+  {
+    "year": 2026,
+    "title": "UPSC IGNITE 1-Year Foundation",
+    "type": "Online/Offline/Hybrid",
+    "features": [
+      "Full UPSC Coverage – GS, CSAT, Essay, and Current Affairs in 12 months.",
+      "Top Mentors & Daily Guidance – IIT/NIT faculty with 1:1 mentorship and daily answer writing.",
+      "Integrated Learning – NCERT to advanced GS + regular tests, current affairs, and ethics prep.",
+      "Extra Benefits – Prelims qualifier refund, free extension till 2027 for old students, and full revision."
+    ],
+    "gradient": "from-green-600 to-green-800",
+    "icon": "/logos/book2.jpg",
+    "link": "1-year-foundation-batch"
+  },
+  {
+    "year": 2027,
+    "title": "NCERT Sudharshan Chakra",
+    "type": "Online/Offline/Hybrid",
+    "features": [
+      "Perfect for Beginners – Designed for 12th pass-outs, college students, and freshers.",
+      "Core NCERT Focus – Covers Class 6–12 NCERTs with UPSC mapping and concept clarity.",
+      "Daily Classes + Tests – 2-hour sessions, weekly quizzes, full-length NCERT tests.",
+      "Mentorship & Transition – Personal guidance and smooth shift to GS Foundation Course."
+    ],
+    "gradient": "from-green-600 to-green-800",
+    "icon": "/logos/book3.jpg",
+    "link": "Ncert-course"
+  },
+  {
+    "year": 2027,
+    "title": "Catch The Wind Course",
+    "type": "Online/Offline/Hybrid",
+    "features": [
+      "Current Affairs Mastery – Covers July 2025–April 2026 from top UPSC sources with GS & static linkage.",
+      "Mentor-Led Prep – Weekly answer writing + 1-on-1 mentorship, reviews, and strategy building.",
+      "Weekly Tests – MCQ + Mains-based current affairs tests with regular feedback.",
+      "Prelims-Focused Phase – April–May revision, tests & elimination techniques for UPSC Prelims 2026."
+    ],
+    "gradient": "from-green-600 to-green-800",
+    "icon": "/logos/book4.jpg",
+    "link": "Mentorship-course"
+  },
+  {
+    "year": 2027,
+    "title": "UPSC Fodo Batch",
+    "type": "Online/Offline/Hybrid",
+    "features": [
+      "Intensive Crash Course – Fast-track preparation for serious aspirants with limited time.",
+      "Strategic Focus Areas – High-yield topics, previous year analysis, and exam pattern mastery.",
+      "Smart Study Techniques – Memory tricks, time management, and efficient revision methods.",
+      "Results-Oriented Approach – Mock tests, performance analytics, and targeted improvement plans."
+    ],
+    "gradient": "from-green-600 to-green-800",
+    "icon": "/logos/book5.jpg",
+    "link": "Fodo-batch"
+  },
+  {
+    "year": 2027,
+    "title": "Hits the Bulls Eye Mentorship Batch",
+    "type": "Online/Offline/Hybrid",
+    "features": [
+      "Precision Target Training – Laser-focused preparation for specific UPSC weak areas and strengths.",
+      "Expert Shot Analysis – Detailed performance breakdown with personalized improvement strategies.",
+      "Bullseye Practice Sessions – High-intensity mock tests and rapid-fire question solving techniques.",
+      "Championship Mentality – Confidence building, exam psychology, and winning mindset development."
+    ],
+    "gradient": "from-green-600 to-green-800",
+    "icon": "/logos/book6.jpg",
+    "link": "foundation-ias"
+  }
+]
