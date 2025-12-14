@@ -5,21 +5,7 @@
   import Footer from '../components/Footer.svelte';   
   import { onMount } from 'svelte';    
   
-  let isMobile = false;    
-  
-  // Detect screen size for responsive sidebar toggle   
-  onMount(() => {     
-    const checkMobile = () => {       
-      isMobile = window.innerWidth < 768;     
-    };      
-    
-    checkMobile();     
-    window.addEventListener('resize', checkMobile);      
-    
-    return () => {       
-      window.removeEventListener('resize', checkMobile);     
-    };   
-  }); 
+  // Detect screen size for responsive sidebar toggle - Removed as Sidebar is now visible on all devices 
 </script>  
 
 <svelte:head>
@@ -82,9 +68,7 @@
     <main class="flex-1 w-full overflow-x-hidden min-w-0">       
       <slot />     
     </main>     
-    {#if !isMobile}       
-      <SideBar />     
-    {/if}   
+    <SideBar />   
   </div>    
   
   <Footer /> 
