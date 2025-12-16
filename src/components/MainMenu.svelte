@@ -142,7 +142,7 @@
 </div>
 
 <!-- Hamburger Button (Mobile) - KEEPING YOUR ORIGINAL CODE -->
-<button class="md:hidden text-gray-700 focus:outline-none" on:click={() => menuOpen = !menuOpen} aria-label="menu-btn">
+<button class="md:hidden text-gray-700 focus:outline-none cursor-pointer p-2 touch-manipulation" on:click={() => menuOpen = !menuOpen} aria-label="menu-btn">
   <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
   </svg>
