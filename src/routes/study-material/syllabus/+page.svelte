@@ -830,4 +830,9 @@
     border: 1px dotted #666 !important;
     border-collapse: collapse;
   }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content !important;
+  }
 </style>
