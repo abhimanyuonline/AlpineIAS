@@ -31,6 +31,12 @@
         image: "/teachersimage/teacherimage4.jpg",
         tags: ["PH.D. TAIWAN", "3 UPSC INTERVIEWS", "ETHICS & ESSAY"],
         description: "Ph.D. in Organisational Management and Leadership from Yuan Ze University, Taiwan, with 5 years of teaching experience in Environmental Sustainability and English Communication. Having appeared in 3 UPSC interviews, I specialize in English writing, essay writing, ethics, and comprehensive interview preparation. My academic background and practical UPSC experience provide unique insights into personality development and communication skills essential for civil services success."
+      },
+       {
+        name: "RAKESH  KUMAR SAH",
+        image: "/teachersimage/teacherimage5.jpg",
+        tags: ["BTECH IIT KHRAGPUR", "MBA :IIM LUCKNOW "],
+        description: "Ph.D. in Organisational Management and Leadership from Yuan Ze University, Taiwan, with 5 years of teaching experience in Environmental Sustainability and English Communication. Having appeared in 3 UPSC interviews, I specialize in English writing, essay writing, ethics, and comprehensive interview preparation. My academic background and practical UPSC experience provide unique insights into personality development and communication skills essential for civil services success."
       }
     ];
     
@@ -59,54 +65,80 @@
         <p class="text-xl text-gray-600">Expert guidance from qualified civil services professionals</p>
       </div>
       
-      <!-- Teacher Cards Container - Updated for 4 columns -->
-      <div class="teacher-grid">
-        
-        {#each teachers as teacher, index}
-          <div class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1 teacher-card">
-            <div class="px-4 pt-4 pb-6">
-              <!-- Image Container made smaller -->
-              <div class="image-container">
-                <img 
-                  src={teacher.image} 
-                  alt={teacher.name} 
-                  class="teacher-image"
-                  on:error={handleImageError}
-                  loading="lazy"
-                />
-              </div>
-              
-              <div class="text-center">
-                <h3 class="text-xl font-bold mb-2 text-gray-800">{teacher.name}</h3>
-                
-                <!-- Qualification Tags - made more compact -->
-                <div class="flex flex-wrap justify-center gap-1 mb-3">
-                  {#each teacher.tags as tag}
-                    <span class="bg-gradient-to-r from-blue-50 to-green-50 text-gray-700 px-2 py-1 rounded-full text-xs font-medium border border-gray-200">{tag}</span>
-                  {/each}
+      <!-- Teacher Cards Container - Updated for Infinite Scroll -->
+      <div class="marquee-container">
+        <div class="marquee-content">
+          {#each [...teachers, ...teachers] as teacher, index}
+            <div class="teacher-card-wrapper">
+              <div class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1 teacher-card">
+                <div class="px-4 pt-4 pb-6">
+                  <!-- Image Container made smaller -->
+                  <div class="image-container">
+                    <img 
+                      src={teacher.image} 
+                      alt={teacher.name} 
+                      class="teacher-image"
+                      on:error={handleImageError}
+                      loading="lazy"
+                    />
+                  </div>
+                  
+                  <div class="text-center">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">{teacher.name}</h3>
+                    
+                    <!-- Qualification Tags - made more compact -->
+                    <div class="flex flex-wrap justify-center gap-1 mb-3">
+                      {#each teacher.tags as tag}
+                        <span class="bg-gradient-to-r from-blue-50 to-green-50 text-gray-700 px-2 py-1 rounded-full text-xs font-medium border border-gray-200">{tag}</span>
+                      {/each}
+                    </div>
+                    
+                    <!-- Description - shortened with ellipsis -->
+                    <p class="text-gray-600 mb-4 leading-tight text-xs text-left line-clamp-4">
+                      {teacher.description}
+                    </p>
+                  </div>
                 </div>
-                
-                <!-- Description - shortened with ellipsis -->
-                <p class="text-gray-600 mb-4 leading-tight text-xs text-left line-clamp-4">
-                  {teacher.description}
-                </p>
               </div>
             </div>
-          </div>
-        {/each}
-        
+          {/each}
+        </div>
       </div>
     </div>
 </section>
   
 <style>
-    /* Teacher Grid - 4 columns with tighter spacing */
-    .teacher-grid {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(240px, 1fr));
+    /* Infinite Scroll Animation */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-300px * 5 - 1.5rem * 5));
+        }
+    }
+
+    .marquee-container {
+        width: 100%;
+        overflow: hidden;
+        padding: 20px 0;
+        position: relative;
+    }
+
+    .marquee-content {
+        display: flex;
         gap: 1.5rem;
-        max-width: 1400px;
-        margin: 0 auto;
+        width: max-content;
+        animation: scroll 30s linear infinite;
+    }
+
+    .marquee-content:hover {
+        animation-play-state: paused;
+    }
+
+    .teacher-card-wrapper {
+        flex: 0 0 300px;
+        width: 300px;
     }
 
     /* Smaller image container */
@@ -156,43 +188,26 @@
 
     /* Responsive adjustments */
     @media (max-width: 1280px) {
-      .teacher-grid {
-        grid-template-columns: repeat(2, minmax(280px, 1fr));
-        gap: 1.5rem;
-        padding: 0 1rem;
+      .marquee-container {
+        padding: 15px 0;
       }
     }
     
     @media (max-width: 768px) {
-      .teacher-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-        padding: 0 1rem;
+      .teacher-card-wrapper {
+        flex: 0 0 280px;
+        width: 280px;
       }
       
       .image-container {
-        aspect-ratio: 4/3;
-        margin-bottom: 16px;
-      }
-      
-      .teacher-card {
-        margin-bottom: 20px;
-        min-height: auto;
+        aspect-ratio: 1/1;
       }
     }
     
     @media (max-width: 480px) {
-      .teacher-grid {
-        padding: 0 0.5rem;
-        gap: 1rem;
-      }
-      
-      .image-container {
-        aspect-ratio: 4/3;
-      }
-      
-      .teacher-card {
-        padding: 1rem;
+      .teacher-card-wrapper {
+        flex: 0 0 260px;
+        width: 260px;
       }
     }
 </style>
