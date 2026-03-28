@@ -19,19 +19,17 @@
 						<div class="content pt-4 pr-4 pb-4">
 							<h2 dir="ltr"><strong>UPSC Syllabus 2026, IAS Prelims &amp; Mains Syllabus PDF<b></b></strong></h2>
 <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; line-height: normal;"><span style="font-size: 14.0pt; font-family: 'Kokila','sans-serif'; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: EN-IN;">The UPSC Civil Services Examination follows a three-tiered structure—Preliminary Exam, Main Exam, and Interview (Personality Test). The <b>UPSC Syllabus for Prelims</b> includes two objective-type papers: General Studies Paper-I and General Studies Paper-II, also known as the Civil Services Aptitude Test (CSAT). These papers test candidates on a broad range of topics including history, geography, polity, economy, environment, science, and current affairs.</span></p>
-<h2 class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; line-height: normal;"><span style="font-size: 14.0pt; font-family: 'Kokila','sans-serif'; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: EN-IN;"><span><strong>Download UPSC Civil Services Examination Notification &amp; Syllabus –PDF</strong><br></span><br></span></h2>
-<div dir="ltr" style="text-align: left;">
-<table class="table table-bordered"><colgroup><col width="601" style="width: 100%;"></colgroup>
-<tbody>
-<tr>
-<td style="background-color: #fbeeb8;">
-<p dir="ltr"><span>Candidates can access the official&nbsp; PDFs through the links below:</span></p>
-<p dir="ltr"><a href="https://upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf" target="_blank" rel="noopener"><span>Download UPSC Notification PDF- 2026</span></a></p>
-<p dir="ltr"><a href="https://www.sanskritiias.com/uploaded_files/pdf/UPSC_Syllabus(Pre_Mains)_2025.pdf" target="_blank" rel="noopener"><span>Download UPSC Syllabus PDF- 2026</span><span>&nbsp;</span></a></p>
-</td>
-</tr>
-</tbody>
-</table>
+<p class="spaced-paragraph"></p>
+ <div class="flex justify-center mt-8">
+      <a
+        href="https://epx9v2hhyesb31wl.public.blob.vercel-storage.com/Notif-CSP-2025-Engl-220125%20%282%29.pdf"
+        class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition-colors"
+        target="_blank"
+      >
+        📥 Download Full Syllabus PDF
+      </a>
+    </div>
+<div dir="ltr" style="text-align: center;">
 <h2><strong><b></b>UPSC Prelims Syllabus</strong></h2>
 </div>
 <p dir="ltr"><span>The UPSC Civil Services Preliminary Examination consists of </span><span>two papers</span><span>, both conducted on the </span><span>same day</span><span>.</span></p>
@@ -39,7 +37,9 @@
 <li><strong>GS</strong><span><strong> Paper-I:</strong> General Studies (GS)</span></li>
 <li><strong>GS</strong><span><strong> Paper-II: </strong>CSAT (Civil Services Aptitude Test)</span></li>
 </ul>
-<h2><span></span><strong>&nbsp;UPSC Prelims GS Paper-I (General Studies) and GS Paper-II (CSAT)</strong></h2>
+<p class="spaced-paragraph"></p>
+<h2 style="text-align: center;"><span></span><strong>UPSC Prelims GS Paper-I (General Studies) and GS Paper-II (CSAT)</strong></h2>
+<p class="spaced-paragraph"></p>
 <div dir="ltr" style="text-align: left;">
 <table class="table table-bordered"><colgroup><col width="165" style="width: 27.4542%;"><col width="226" style="width: 37.604%;"><col width="210" style="width: 34.9418%;"></colgroup>
 <tbody>
@@ -144,7 +144,8 @@
 </tr>
 </tbody>
 </table>
-<h2 class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: left;"><strong>UPSC Prelims Detailed Syllabus (General Studies): GS Paper-I<br><br></strong></h2>
+<p class="spaced-paragraph"></p>
+<h2 class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"><strong>UPSC Prelims Detailed Syllabus (General Studies): GS Paper-I<br><br></strong></h2>
 </div>
 <div dir="ltr" style="text-align: left;">
 <table class="table table-bordered"><colgroup><col width="255" style="width: 42.3588%;"><col width="347" style="width: 57.6412%;"></colgroup>
@@ -216,7 +217,9 @@
 </tbody>
 </table>
 </div>
-<h2 dir="ltr"><strong>UPSC Prelims Detailed Syllabus (CSAT): GS Paper-II</strong></h2>
+<p class="spaced-paragraph"></p>
+<h2 dir="ltr" style="text-align: center;"><strong>UPSC Prelims Detailed Syllabus (CSAT): GS Paper-II</strong></h2>
+<p class="spaced-paragraph"></p>
 <div dir="ltr" style="text-align: left;">
 <table class="table table-bordered"><colgroup><col width="311" style="width: 51.7471%;"><col width="290" style="width: 48.2529%;"></colgroup>
 <tbody>
@@ -297,8 +300,9 @@
 <li dir="ltr" role="presentation"><span>There is 1/3 negative marking for every incorrect answer, so guesswork should be done cautiously.</span></li>
 <li dir="ltr" role="presentation"><span>CSAT (Paper-II) should not be taken lightly, as it is qualifying in nature and can be a deciding factor.</span><strong><b><br></b></strong></li>
 </ul>
-<h2 dir="ltr"><strong>UPSC Mains Syllabus</strong></h2>
+<h2 dir="ltr" style="text-align: center;"><strong>UPSC Mains Syllabus</strong></h2>
 <p dir="ltr"><span>The UPSC Civil Services Mains Examination is the second stage of the prestigious civil services exam in India. It consists of nine descriptive papers, including four General Studies papers, an Essay, two language papers, and two optional subject papers. This stage tests a candidate’s in-depth knowledge, analytical ability, and writing skills necessary for administrative responsibilities.</span></p>
+<p class="spaced-paragraph"></p>
 <div dir="ltr" style="text-align: center;">
 <table class="table table-bordered"><colgroup><col width="76" style="width: 14.579%;"><col width="408" style="width: 74.4192%;"><col width="60" style="width: 11.0018%;"></colgroup>
 <tbody>
@@ -460,10 +464,13 @@
 </tbody>
 </table>
 </div>
-<h2 dir="ltr"><strong>UPSC Mains Syllabus for Qualifying Papers (Indian Languages and English)</strong></h2>
+<p class="spaced-paragraph"></p>
+<h2 dir="ltr" style="text-align: center;"><strong>UPSC Mains Syllabus for Qualifying Papers (Indian Languages and English)</strong></h2>
+<p class="spaced-paragraph"></p>
 <p dir="ltr"><span>UPSC Mains includes two qualifying papers: Paper A (Compulsory Indian Language) and Paper B (English), each of 300 marks. Candidates must secure at least 25% marks in both to have their other papers evaluated. These papers test basic comprehension and writing skills. Marks in these are not counted for final ranking but are mandatory to qualify.</span></p>
 <p dir="ltr"><span>The pattern of questions would be broadly as follows:</span></p>
 <div dir="ltr" style="text-align: left;">
+<p class="spaced-paragraph"></p>
 <table class="table table-bordered"><colgroup><col width="138" style="width: 24.1259%;"><col width="434" style="width: 75.8741%;"></colgroup>
 <tbody>
 <tr>
@@ -512,16 +519,9 @@
 <li dir="ltr" role="presentation"><span>Important Geophysical Phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes.</span><strong><b></b></strong></li>
 </ul>
 <div dir="ltr" style="text-align: left;">
-<table class="table table-bordered"><colgroup><col width="473" style="width: 100%;"></colgroup>
-<tbody>
-<tr>
-<td style="background-color: #ecf0f1;">
-<p dir="ltr"><span><strong>UPSC Mains Syllabus: </strong>Paper-II/General Studies-I <a href="https://www.sanskritiias.com/upsc-syllabus/general-studies-i" title="general-studies-i" target="_blank" rel="noopener">(Know more)</a></span></p>
-</td>
-</tr>
-</tbody>
-</table>
+<p class="spaced-paragraph"></p>
 <h2><strong><b></b></strong><strong>UPSC Mains Syllabus: Paper-III/General Studies-II</strong></h2>
+<p class="spaced-paragraph"></p>
 </div>
 <div dir="ltr" style="text-align: left;"><strong><b></b></strong><span>Governance, Constitution, Polity, Social Justice and International Relations</span></div>
 <ul style="list-style-type: square;">
@@ -547,16 +547,9 @@
 <li dir="ltr" role="presentation"><span>Important International Institutions, agencies and fora - their Structure, Mandate.</span><strong><b>&nbsp;</b></strong></li>
 </ul>
 <div dir="ltr" style="text-align: center;">
-<table class="table table-bordered"><colgroup><col width="463" style="width: 463px;"></colgroup>
-<tbody>
-<tr>
-<td style="background-color: #ecf0f1;">
-<p dir="ltr"><span><strong>UPSC Mains Syllabus: </strong>Paper-III/General Studies-II <a href="https://www.sanskritiias.com/upsc-syllabus/general-studies-ii" title="general-studies-ii" target="_blank" rel="noopener">(Know more)</a></span></p>
-</td>
-</tr>
-</tbody>
-</table>
+<p class="spaced-paragraph"></p>
 <h2 style="text-align: left;"><strong><b></b></strong><strong>UPSC Mains Syllabus: Paper-IV/General Studies-III<b></b></strong></h2>
+<p class="spaced-paragraph"></p>
 </div>
 <p dir="ltr"><span>Technology, Economic Development, Bio-diversity, Environment, Security and Disaster Management</span></p>
 <ul style="list-style-type: square;">
@@ -582,16 +575,9 @@
 <li dir="ltr" role="presentation"><span>Various Security Forces and Agencies and their Mandate.</span><strong><b><br></b></strong></li>
 </ul>
 <div dir="ltr" style="text-align: left;">
-<table class="table table-bordered"><colgroup><col width="507" style="width: 507px;"></colgroup>
-<tbody>
-<tr>
-<td style="background-color: #ecf0f1;">
-<p dir="ltr"><span><strong>UPSC Mains Syllabus: </strong>Paper-IV/General Studies-III <a href="https://www.sanskritiias.com/upsc-syllabus/general-studies-iii" title="general-studies-iii" target="_blank" rel="noopener">(Know more)</a></span></p>
-</td>
-</tr>
-</tbody>
-</table>
+<p class="spaced-paragraph"></p>
 <h2><strong><b></b></strong><strong>UPSC Mains Syllabus: Paper-V/General Studies- IV</strong></h2>
+<p class="spaced-paragraph"></p>
 </div>
 <div dir="ltr" style="text-align: left;"><strong><b></b>Ethics, Integrity and Aptitude</strong></div>
 <p dir="ltr"><span>This paper will include questions to test the candidates’ attitude and approach to issues relating to integrity, probity in public life and his problem solving approach to various issues and conflicts faced by him in dealing with society. Questions may utilise the case study approach to determine these aspects. The following broad areas will be covered:</span></p>
@@ -798,28 +784,8 @@
 </div>
 </div>
 </div>
-<br>    <section class="mb-6">
-      <button class="text-blue-600 underline" on:click={toggle}>
-        <span>{show ? 'Hide' : 'Show'}</span> Download Official Syllabus PDF
-      </button>
-
-      {#if show}
-        <ul class="list-disc pl-5 mt-4 space-y-2 text-green-700 text-sm">
-          <li><a href="https://drive.google.com/drive/folders/15eDW0BNwfJ7JI4QY1Z-C7Yem2X0LnjSg?usp=sharing" target="_blank" class="underline">📄 UPSC Prelims + Mains Official Syllabus PDF</a></li>
-        </ul>
-      {/if}
-    </section>
-
-    <div class="flex justify-center mt-8">
-      <a
-        href="https://drive.google.com/drive/folders/15eDW0BNwfJ7JI4QY1Z-C7Yem2X0LnjSg?usp=sharing"
-        class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition-colors"
-        target="_blank"
-      >
-        📥 Download Full Syllabus PDF
-      </a>
-    </div>
-  </main>
+<br>   
+</main>
 </div>
 
 <style>
@@ -834,5 +800,8 @@
     margin-left: auto;
     margin-right: auto;
     width: fit-content !important;
+  }
+  .spaced-paragraph {
+    margin-bottom: 20px; /* Adds 20 pixels of space below the paragraph */
   }
 </style>
