@@ -826,4 +826,8 @@
   a:hover {
     text-decoration: underline;
   }
+  table, td {
+    border: 1px dotted #666 !important;
+    border-collapse: collapse;
+  }
 </style>
