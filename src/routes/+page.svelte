@@ -37,8 +37,8 @@
     ];
 
     let galleryImages = $derived(isMobile
-        ? [["/logos/mobilepopup2.png", "Mobile Banner"]]
-        : [["/logos/popup1.jpg", "Local Banner"], ["/logos/popup2.png", "Local Banner"]]);
+        ? [["/logos/mobilepopup2.png", "Mobile Banner"], ["/logos/Popup3.jpeg", "Local Banner"]]
+        : [["/logos/popup1.jpg", "Local Banner"], ["/logos/popup2.png", "Local Banner"], ["/logos/Popup3.jpeg", "Local Banner"]]);
 </script>
 
 <Marquee>
