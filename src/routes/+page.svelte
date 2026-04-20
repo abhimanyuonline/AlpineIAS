@@ -13,6 +13,7 @@
     import SideBar from "../components/SideBar/SideBar.svelte";
     import TeacherCard from "../components/TeacherCard.svelte";
     import Faqweb from "../components/Faqweb.svelte";
+    import YouTubePopup from "../components/YouTubePopup.svelte";
 
     let isMobile = $state(false);
 
@@ -72,6 +73,8 @@
 <TeacherCard />
 
 <Faqweb />
+
+<YouTubePopup />
 
 <style>
 .link {
