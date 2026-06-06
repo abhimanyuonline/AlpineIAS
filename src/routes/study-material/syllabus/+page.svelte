@@ -1,8 +1,5 @@
 <script>
-  let show = false;
-  function toggle() {
-    show = !show;
-  }
+  // No active state needed for simple static syllabus page
 </script>
 
 <svelte:head>
@@ -10,14 +7,40 @@
   <meta name="description" content="Get the detailed UPSC syllabus for Prelims and Mains including GS Papers, Essay, and Interview. Download the official PDF for free." />
 </svelte:head>
 
-<div class="bg-gray-50 min-h-screen">
-  <main class="py-6 px-0 w-full">
-    <h1 class="text-4xl font-bold text-center mb-4">UPSC Syllabus – Prelims & Mains</h1>
-    <p class="text-center mb-6">Curated for Serious Aspirants | 100% Free | Downloadable PDF</p>
-      <div class="w-full p-0">
-									<div class="blog position-relative overflow-hidden shadow rounded">
-						<div class="content pt-4 pr-4 pb-4">
-							<h2 dir="ltr"><strong>UPSC Syllabus 2026, IAS Prelims &amp; Mains Syllabus PDF<b></b></strong></h2>
+<div class="bg-gray-50 min-h-screen pt-8 pb-16 relative overflow-hidden">
+  <!-- Decorative Ambient Blobs -->
+  <div class="absolute top-[10%] left-[-5%] w-[35vw] h-[35vw] bg-emerald-200/10 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute top-[40%] right-[-5%] w-[40vw] h-[40vw] bg-teal-200/10 rounded-full blur-3xl pointer-events-none"></div>
+
+  <main class="max-w-6xl mx-auto px-4 relative z-10">
+    <!-- Breadcrumb -->
+    <div class="mb-6">
+      <a href="/study-material" class="text-sm font-bold text-emerald-700 hover:text-emerald-800 transition flex items-center gap-1">
+        ← All Study Materials
+      </a>
+    </div>
+
+    <!-- Hero Title Card -->
+    <div class="bg-gradient-to-br from-emerald-900 to-teal-950 text-white rounded-3xl p-8 md:p-12 shadow-xl mb-10 relative overflow-hidden border border-emerald-800">
+      <div class="absolute -right-10 -bottom-10 w-64 h-64 opacity-5 pointer-events-none text-white">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <line x1="16" y1="13" x2="8" y2="13"/>
+          <line x1="16" y1="17" x2="8" y2="17"/>
+        </svg>
+      </div>
+
+      <span class="bg-emerald-500/25 border border-emerald-500/40 text-emerald-300 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block">
+        Official Syllabus
+      </span>
+      <h1 class="text-3xl md:text-5xl font-black mb-4 tracking-tight leading-tight uppercase">UPSC CSE Syllabus</h1>
+      <p class="text-lg md:text-xl text-emerald-100/90 font-medium max-w-3xl mb-6 leading-relaxed">
+        Curated for Serious Aspirants | 100% Free | Official Downloadable PDF
+      </p>
+    </div>
+
+    <div class="bg-white p-6 md:p-10 rounded-3xl border border-gray-100 shadow-sm syllabus-content">
 <p class="MsoNormal" style="margin-bottom: .0001pt; text-align: justify; line-height: normal;"><span style="font-size: 14.0pt; font-family: 'Kokila','sans-serif'; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: EN-IN;">The UPSC Civil Services Examination follows a three-tiered structure—Preliminary Exam, Main Exam, and Interview (Personality Test). The <b>UPSC Syllabus for Prelims</b> includes two objective-type papers: General Studies Paper-I and General Studies Paper-II, also known as the Civil Services Aptitude Test (CSAT). These papers test candidates on a broad range of topics including history, geography, polity, economy, environment, science, and current affairs.</span></p>
 <p class="spaced-paragraph"></p>
  <div class="flex justify-center mt-8">
@@ -782,26 +805,105 @@
 </div>
 </div>
 </div>
-</div>
-</div>
-<br>   
-</main>
+  </main>
 </div>
 
 <style>
-  a:hover {
+  .syllabus-content {
+    font-family: inherit;
+  }
+  
+  .syllabus-content :global(h2) {
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+    color: #064e3b !important;
+    margin-top: 36px !important;
+    margin-bottom: 16px !important;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    border-bottom: 2px solid #ecfdf5;
+    padding-bottom: 8px;
+    text-align: left !important;
+  }
+  .syllabus-content :global(h2 strong) {
+    font-weight: 800 !important;
+  }
+  .syllabus-content :global(h3) {
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    color: #111827 !important;
+    margin-top: 24px !important;
+    margin-bottom: 12px !important;
+  }
+  .syllabus-content :global(p) {
+    font-size: 0.875rem !important;
+    line-height: 1.625 !important;
+    color: #4b5563 !important;
+    margin-bottom: 12px !important;
+  }
+  .syllabus-content :global(ul) {
+    font-size: 0.875rem !important;
+    color: #4b5563 !important;
+    margin-bottom: 16px !important;
+    padding-left: 20px !important;
+  }
+  .syllabus-content :global(li) {
+    margin-bottom: 6px !important;
+  }
+  .syllabus-content :global(table) {
+    display: block;
+    width: 100% !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-collapse: collapse;
+    margin: 24px auto;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+  }
+  .syllabus-content :global(table td) {
+    padding: 10px 14px !important;
+    border: 1px solid #e5e7eb !important;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    background-color: transparent !important;
+    color: #4b5563;
+  }
+  .syllabus-content :global(table tr:nth-child(even)) {
+    background-color: #f9fafb !important;
+  }
+  .syllabus-content :global(table tr:first-child td) {
+    background-color: #f3f4f6 !important;
+    font-weight: 700;
+    color: #111827 !important;
+  }
+  .syllabus-content :global(table tr:first-child td strong) {
+    font-weight: 700 !important;
+  }
+  .syllabus-content :global(a) {
+    color: #059669;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .syllabus-content :global(a:hover) {
     text-decoration: underline;
   }
-  table, td {
-    border: 1px dotted #666 !important;
-    border-collapse: collapse;
+  
+  /* Highlight PDF download link button at the top/bottom */
+  .syllabus-content :global(a.bg-green-600) {
+    background-color: #059669 !important;
+    color: white !important;
+    padding: 12px 28px !important;
+    border-radius: 9999px !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
-  table {
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content !important;
-  }
-  .spaced-paragraph {
-    margin-bottom: 20px; /* Adds 20 pixels of space below the paragraph */
+  .syllabus-content :global(a.bg-green-600:hover) {
+    background-color: #047857 !important;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
   }
 </style>
