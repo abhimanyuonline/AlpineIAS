@@ -57,11 +57,19 @@
   }
 </script>
 
-<section class="faq-section py-10 max-w-4xl mx-auto px-5">
-  <div class="flex flex-col md:flex-row md:gap-10">
+<section class="faq-section py-16 bg-white border-t border-gray-100 relative z-10">
+  <div class="max-w-4xl mx-auto px-5 flex flex-col md:flex-row md:gap-10">
     <!-- Left column with title -->
-    <div class="md:w-1/3 mb-8 md:mb-0">
-      <h1 class="text-4xl font-bold mb-6">Frequently Asked Questions</h1>
+    <div class="md:w-1/3 mb-8 md:mb-0 space-y-3">
+      <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 border border-emerald-200/50 uppercase tracking-widest">
+          HELP DESK
+      </span>
+      <h2 class="text-3xl font-extrabold text-emerald-950 tracking-tight leading-tight">
+          Frequently Asked Questions
+      </h2>
+      <p class="text-gray-500 text-sm leading-relaxed">
+          Find answers to common queries regarding UPSC eligibility, learning modes, courses, and fee options.
+      </p>
     </div>
     
     <!-- Right column with FAQ list -->

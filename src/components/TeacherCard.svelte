@@ -57,12 +57,19 @@
   
 
 <!-- Teacher Cards Section -->
-<section class="py-14 bg-gray-50">
+<section class="py-16 bg-gray-50 relative z-10 border-t border-gray-100">
     <div class="container mx-auto px-6">
       <!-- Section Heading -->
       <div class="mb-12 text-center">
-        <h2 class="text-3xl font-bold mb-2" style="color: {alpineGreen};">Meet Our UPSC Mentors</h2>
-        <p class="text-xl text-gray-600">Expert guidance from qualified civil services professionals</p>
+        <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 border border-emerald-200/50 uppercase tracking-widest mb-3">
+            EXPERT MENTORS
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-emerald-950 tracking-tight">
+            Meet Our UPSC Mentors
+        </h2>
+        <p class="text-gray-500 text-sm sm:text-base mt-2 max-w-xl mx-auto px-4 leading-relaxed">
+            Expert guidance, personality development, and administrative insights from qualified civil services professionals.
+        </p>
       </div>
       
       <!-- Teacher Cards Container - Updated for Infinite Scroll -->
