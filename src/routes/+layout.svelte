@@ -46,10 +46,10 @@
    "description": "AlpineIAS is Dehradun's leading UPSC coaching institute, providing comprehensive IAS preparation with expert faculty, proven strategies, and personalized mentorship.",
    "address": {
      "@type": "PostalAddress",
-     "streetAddress": "285/9, Maharani Bagh Ln, near ballupur chowk, Mohit Nagar",
+     "streetAddress": "CP 12,1st floor,ITBP ROAD Land mark:near leo bakery",
      "addressLocality": "Dehradun",
      "addressRegion": "Uttarakhand",
-     "postalCode": "248001",
+     "postalCode": "248006",
      "addressCountry": "IN"
    }
  }
